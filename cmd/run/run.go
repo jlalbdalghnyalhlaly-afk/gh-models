@@ -422,7 +422,7 @@ func NewRunCommand(cfg *command.Config) *cobra.Command {
 	cmd.Flags().String("temperature", "", "Controls randomness in the response, use lower to be more deterministic.")
 	cmd.Flags().String("top-p", "", "Controls text diversity by selecting the most probable words until a set probability is reached.")
 	cmd.Flags().String("system-prompt", "", "Prompt the system.")
-	cmd.Flags().String("org", "", "Organization to attribute usage to (omitting will attribute usage to the current actor")
+	cmd.Flags().String("org", "", "Organization to attribute usage to (omitting will attribute usage to the current actor)")
 
 	return cmd
 }

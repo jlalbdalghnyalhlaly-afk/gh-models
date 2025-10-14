@@ -138,7 +138,7 @@ func NewEvalCommand(cfg *command.Config) *cobra.Command {
 	}
 
 	cmd.Flags().Bool("json", false, "Output results in JSON format")
-	cmd.Flags().String("org", "", "Organization to attribute usage to (omitting will attribute usage to the current actor")
+	cmd.Flags().String("org", "", "Organization to attribute usage to (omitting will attribute usage to the current actor)")
 	return cmd
 }
 
