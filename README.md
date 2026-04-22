@@ -1,4 +1,4 @@
-## GitHub Models extension
+* @github/github-models-reviewers## GitHub Models extension
 
 Use the GitHub Models service from the CLI!
 
